@@ -1,0 +1,77 @@
+
+body {
+  background-color: #000000;
+  font-family: Arial, sans-serif;
+  color: #fff;
+
+}
+header {
+  background-image: url('https://images-2.rakuten.tv/storage/snapshot/shot/a73a6d55-95c2-4a50-88fd-68b9897ffa32.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Establecer posición relativa para que los elementos posicionados dentro de él se ubiquen con respecto a él */
+}
+
+header img{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 50px;
+  border-radius: 50%; 
+  object-fit: cover;
+  overflow: hidden;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+p {
+margin-bottom: 100PX;
+}
+
+h1{
+  margin-top: 30px;
+}
+
+#about {
+  text-align: center; /* Centrar el texto dentro de #about */
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  margin-bottom: 0px;
+}
+
+footer img {
+  width: 25px;
+  height: auto;
+  margin: 0 5px;
+}
+

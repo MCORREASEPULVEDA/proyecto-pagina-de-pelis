@@ -1,0 +1,81 @@
+
+body {
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+    color: #fff;
+  
+  }
+
+  header {
+    position: relative; 
+    background-image: url('https://i0.wp.com/www.archivoshistoria.com/wp-content/uploads/2017/06/maxresdefault.jpg?fit=3000%2C1447&ssl=1');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 50px;
+    border-radius: 50%; 
+    object-fit: cover;
+    overflow: hidden;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+      
+      nav a {
+        color: #fff; 
+        text-decoration: none; 
+        margin: 0 10px;  
+    }      
+
+      #nav h1 {
+        margin: 0; 
+        margin-top: 20px;
+        margin-bottom: 10px;
+     
+      }
+
+      p {
+        margin-top: 40px;
+        margin-bottom: 100PX;
+        }
+        
+        h2{
+          margin-top: 30px;
+          margin-bottom: 10px;
+          text-align: center;
+        }
+    
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+  }
+  
+  footer img {
+    width: 25px;
+    height: auto;
+    margin: 0 5px;
+  }
