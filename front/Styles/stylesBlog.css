@@ -1,0 +1,84 @@
+
+body {
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+    color: #fff;
+  
+  }
+  header {
+    background-image: url('https://media.revistagq.com/photos/5ca5f1b3f46488687cf49211/16:9/w_1280,c_limit/peliculas_mas_taquilleras_5260.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Establecer posición relativa para que los elementos posicionados dentro de él se ubiquen con respecto a él */
+  }
+  
+  header img{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 50px;
+    border-radius: 50%; 
+    object-fit: cover;
+    overflow: hidden;
+  }
+  
+  nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  p {
+  margin-bottom: 100PX;
+  }
+  
+  h1{
+    text-align: center;
+  }
+
+  h2{
+text-align: center;
+margin-top: 30px;
+margin-bottom: 30px;
+  }
+
+  #about {
+    text-align: center; /* Centrar el texto dentro de #about */
+  }
+  
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    margin-bottom: 0px;
+  }
+  
+  footer img {
+    width: 25px;
+    height: auto;
+    margin: 0 5px;
+  }
+  
+  

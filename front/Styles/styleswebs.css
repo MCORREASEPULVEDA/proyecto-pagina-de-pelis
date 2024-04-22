@@ -1,0 +1,129 @@
+
+body {
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+    color: #fff;
+  
+  }
+  header {
+    background-image: url('https://i.blogs.es/1c5d72/mejores-cifi/1366_2000.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Establecer posición relativa para que los elementos posicionados dentro de él se ubiquen con respecto a él */
+  }
+  
+  header img{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 50px;
+    border-radius: 50%; 
+    object-fit: cover;
+    overflow: hidden;
+  }
+  
+  nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  p {
+  margin-bottom: 50PX;
+  }
+  
+  h1{
+    text-align: center;
+  }
+  
+  h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    margin-bottom: 0px;
+  }
+  
+  footer img {
+    width: 25px;
+    height: auto;
+    margin: 0 5px;
+  }
+  
+  article {
+    background-color:#000000;
+    margin: 20px 0;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+    display:flexbox;
+    margin-bottom: 200px;
+}
+
+.list-group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.list-group-item {
+    background-color: #f8f9fa;
+    border: 1px solid #370361;
+    padding: 10px;
+    text-align: center;
+}
+
+.list-group-item.active {
+    background-color: #fff;
+    color: #333;
+}
+
+.list-group-item.disabled {
+    background-color: #6c757d;
+    color: #fff;
+    cursor: not-allowed;
+}
+
+.list-group-item-action {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.list-group-item-action:hover {
+  background-color: #d155ca83;  
+  color: #2c0541;
+    text-decoration: none;
+}
+
+.list-group-item a:hover {
+  background-color: #b000b3;
+  border-color: #4f0382;
+}

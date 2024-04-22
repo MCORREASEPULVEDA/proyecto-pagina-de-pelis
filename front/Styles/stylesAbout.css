@@ -6,7 +6,7 @@ body {
 
 }
 header {
-  background-image: url('https://images-2.rakuten.tv/storage/snapshot/shot/a73a6d55-95c2-4a50-88fd-68b9897ffa32.jpeg');
+  background-image: url('https://fotografias.antena3.com/clipping/cmsimages02/2018/03/21/4EA3FD98-6FC4-47AF-90A9-82B21E581802/98.jpg?crop=1920,1080,x0,y0&width=1900&height=1069&optimize=high&format=webply');
   background-size: cover;
   background-position: center;
   height: 80vh;
@@ -50,13 +50,14 @@ margin-bottom: 100PX;
 }
 
 h1{
+  text-align: center;
+}
+
+h2{
   margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
 }
-
-#about {
-  text-align: center; /* Centrar el texto dentro de #about */
-}
-
 
 footer {
   background-color: #333;
