@@ -127,3 +127,13 @@ body {
   background-color: #b000b3;
   border-color: #4f0382;
 }
+
+.card img{
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ccc;
+}
+
+.card{
+  margin-bottom: 100px;
+}

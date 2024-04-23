@@ -3,10 +3,11 @@ body {
     background-color: #000000;
     font-family: Arial, sans-serif;
     color: #fff;
+    
   
   }
   header {
-    background-image: url('https://media.revistagq.com/photos/5ca5f1b3f46488687cf49211/16:9/w_1280,c_limit/peliculas_mas_taquilleras_5260.jpg');
+    background-image: url('https://i.blogs.es/56d0cd/diseno-sin-titulo-4-/1366_2000.jpeg');
     background-size: cover;
     background-position: center;
     height: 80vh;
@@ -47,6 +48,7 @@ body {
   
   p {
   margin-bottom: 100PX;
+  text-align: center;
   }
   
   h1{
@@ -59,10 +61,6 @@ margin-top: 30px;
 margin-bottom: 30px;
   }
 
-  #about {
-    text-align: center; /* Centrar el texto dentro de #about */
-  }
-  
   
   footer {
     background-color: #333;
@@ -81,4 +79,63 @@ margin-bottom: 30px;
     margin: 0 5px;
   }
   
-  
+
+.card {
+    background-color: #fff;
+    border-radius: 12px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin:auto;
+    overflow: hidden;
+    max-width: 200px; 
+    margin-bottom: 100px;
+    flex-direction: row;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content:center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.card-content {
+    padding: 5px;
+}
+
+.card-content h3 {
+    margin-top: 0;
+    margin-bottom: 3px;
+    font-size: 1.2em;
+    color: #333;
+    text-align:center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    margin-top: 0;
+    color: #666;
+    font-size: 0.9em; 
+}
+
+.btn-purple {
+  color: #fff;
+  background-color: #800080; /* Color morado */
+  border-color: #800080; /* Color del borde morado */
+}
+
+.btn-purple:hover {
+  background-color: #9932CC; /* Color morado más claro al pasar el mouse */
+  border-color: #9932CC;
+}
+
+#comment {
+  margin-bottom: 100px;
+  background-color: #666;
+  width: 300px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 12px;
+}
